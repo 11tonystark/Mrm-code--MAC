@@ -25,7 +25,7 @@ void setup() {
   Serial.println(sgp.serialnumber[2], HEX);
 
   
-  //sgp.setIAQBaseline(0x8E68, 0x8F41);  python ka address file
+  //sgp.setIAQBaseline(0x8E68, 0x8F41);  python ka address file copy 
 }
 
 int counter = 0;

@@ -17,4 +17,5 @@ def promt():
 x=5+3;
 print(x)
 print(promt())
+
 #compute factorial of given number

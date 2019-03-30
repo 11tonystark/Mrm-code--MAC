@@ -214,6 +214,9 @@ try:
                     else:
                             arm()
 except KeyboardInterrupt:
-    print('lol')
+    val="m4x4999y4999z"
+    transmit.send(val)
+    print('Rover Stopped !!!!')
+    print('E-Kill')
     pygame.display.quit()
     pygame.quit()

@@ -148,8 +148,8 @@ def motorcode():
         if h==True:
             hill='w'
         else:
-            hill='m'
-        val=hill+str(gear)+"x"+str(x)+"y"+str(y)+camera
+            hill=' '
+        val=hill+"Gear"+str(gear)+"x"+str(x)+"y"+str(y)+camera
         #clear()
         print(val)
 
@@ -226,6 +226,7 @@ try:
                     else:
                             arm()
 except KeyboardInterrupt:
-    print('lol')
+    print('Rover Stopped !!! ')
+    print('(E-kill)')
     pygame.display.quit()
     pygame.quit()
